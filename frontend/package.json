@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp",
+    "production": "gulp --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.10.3",
+    "@babel/preset-env": "7.10.3",
+    "@babel/register": "7.10.3",
+    "@uirouter/angularjs": "^1.0.29",
+    "admin-lte": "2.3.11",
+    "angular": "1.8.0",
+    "angular-animate": "1.8.0",
+    "angular-toastr": "2.1.1",
+    "browser-sync": "2.26.7",
+    "font-awesome": "4.7.0",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-cssmin": "0.2.0",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-livereload": "4.0.2",
+    "gulp-uglify": "3.0.2"
+  }
+}

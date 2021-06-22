@@ -1,0 +1,13 @@
+.main-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+#toastr-container {
+  top: 70px;
+}
+
+.table-actions {
+  width: 140px;
+}

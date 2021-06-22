@@ -1,0 +1,20 @@
+<a href class="dropdown-toggle" data-toggle="dropdown">
+  <img src="/assets/user.png" class="user-image" alt="Imagem de usuário">
+  <span class="hidden-xs">{{:: auth.getUser().name }}</span>
+</a>
+<ul class="dropdown-menu">
+  <!-- User image -->
+  <li class="user-header">
+    <img src="/assets/user.png" class="img-circle" alt="Imagem dem usuário">
+    <p>
+      {{:: auth.getUser().name }}
+      <small>{{:: auth.getUser().email }}</small>
+    </p>
+  </li>
+  <!-- Menu Footer -->
+  <li class="user-footer">
+    <div class="pull-right">
+      <a href class="btn btn-default btn-flat" ng-click="auth.logout()">Sair</a>
+    </div>
+  </li>
+</ul>
